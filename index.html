@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Yazeed English - STEP Listening</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Tajawal:wght@400;500;700;800;900&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- =====================================================
+         TOP BAR
+         ===================================================== -->
+    <header class="top-header">
+
+        <div class="brand">
+
+            <img
+                src="logo.png"
+                alt="Yazeed English Logo"
+                class="brand-logo"
+            >
+
+            <div class="brand-text">
+                <strong>Yazeed English</strong>
+                <span>STEP Course</span>
+            </div>
+
+        </div>
+
+        <div class="theme-buttons">
+
+            <button
+                id="themeToggle"
+                class="theme-btn"
+                aria-label="تغيير الوضع"
+                type="button"
+            >
+                🌙
+            </button>
+
+        </div>
+
+    </header>
+
+
+    <!-- =====================================================
+         MAIN LISTENING PRACTICE
+         ===================================================== -->
+    <main class="main-website">
+
+        <section class="listening-page">
+
+            <div class="page-header">
+
+                <span class="page-label">
+                    YAZEED ENGLISH
+                </span>
+
+                <h1>
+                    تدريبات الاستماع
+                </h1>
+
+                <p>
+                    استمع إلى المقطع الصوتي ثم أجب عن جميع الأسئلة المرتبطة به.
+                </p>
+
+            </div>
+
+
+            <!-- Listening number + live score -->
+            <div class="practice-status">
+
+                <div class="listening-number">
+                    Listening <strong id="listeningNumber">1</strong> / 10
+                </div>
+
+                <div class="live-score" aria-live="polite">
+                    <span class="correct-score">
+                        <span id="correctCount">0</span> correct
+                    </span>
+
+                    <span class="score-separator">·</span>
+
+                    <span class="incorrect-score">
+                        <span id="incorrectCount">0</span> incorrect
+                    </span>
+                </div>
+
+            </div>
+
+
+            <!-- =================================================
+                 AUDIO PLAYER
+                 ================================================= -->
+            <section class="audio-card">
+
+                <div class="audio-card-header">
+
+                    <div class="audio-icon">
+                        🎧
+                    </div>
+
+                    <div>
+                        <h2>
+                            Listening <span id="audioTitleNumber">1</span>
+                        </h2>
+
+                        <p>
+                            استمع للمقطع قبل الإجابة.
+                        </p>
+                    </div>
+
+                </div>
+
+
+                <audio
+                    id="audioPlayer"
+                    preload="metadata"
+                ></audio>
+
+
+                <div class="custom-player">
+
+                    <button
+                        id="playPauseBtn"
+                        class="play-btn"
+                        type="button"
+                        aria-label="تشغيل"
+                    >
+                        ▶
+                    </button>
+
+                    <div class="player-main">
+
+                        <div class="time-row">
+
+                            <span id="currentTime">
+                                00:00
+                            </span>
+
+                            <span id="duration">
+                                00:00
+                            </span>
+
+                        </div>
+
+                        <input
+                            id="progressBar"
+                            class="audio-progress"
+                            type="range"
+                            min="0"
+                            max="100"
+                            value="0"
+                            aria-label="التقدم"
+                        >
+
+                    </div>
+
+
+                    <button
+                        id="muteBtn"
+                        class="player-icon-btn"
+                        type="button"
+                        aria-label="كتم الصوت"
+                    >
+                        🔊
+                    </button>
+
+                    <input
+                        id="volumeBar"
+                        class="volume-bar"
+                        type="range"
+                        min="0"
+                        max="1"
+                        step="0.01"
+                        value="1"
+                        aria-label="مستوى الصوت"
+                    >
+
+
+                    <select
+                        id="speedSelect"
+                        class="speed-select"
+                        aria-label="سرعة التشغيل"
+                    >
+                        <option value="0.75">0.75×</option>
+                        <option value="1" selected>1×</option>
+                        <option value="1.25">1.25×</option>
+                        <option value="1.5">1.5×</option>
+                        <option value="2">2×</option>
+                    </select>
+
+                </div>
+
+                <div class="player-footer">
+
+                    <button
+                        id="restartAudioBtn"
+                        class="restart-btn"
+                        type="button"
+                    >
+                        ↻ إعادة تشغيل المقطع
+                    </button>
+
+                    <span class="unlimited-label">
+                
+                    </span>
+
+                </div>
+
+            </section>
+
+
+            <!-- =================================================
+                 QUESTIONS
+                 ================================================= -->
+            <section class="questions-section">
+
+                <div class="questions-heading">
+
+                    <div>
+                        <span class="section-label">
+                            QUESTIONS
+                        </span>
+
+                        <h2>
+                            الأسئلة
+                        </h2>
+                    </div>
+
+                    <span
+                        id="questionCountLabel"
+                        class="question-count"
+                    >
+                        0 أسئلة
+                    </span>
+
+                </div>
+
+
+                <div
+                    id="questionsContainer"
+                    class="questions-container"
+                ></div>
+
+            </section>
+
+
+            <!-- =================================================
+                 NEXT LISTENING
+                 ================================================= -->
+            <div class="next-section">
+
+                <p id="nextMessage">
+                    أجب عن جميع الأسئلة للانتقال إلى المقطع التالي.
+                </p>
+
+                <button
+                    id="nextListeningBtn"
+                    class="next-btn"
+                    type="button"
+                >
+                    التالي
+                    <span>←</span>
+                </button>
+
+            </div>
+
+        </section>
+
+    </main>
+
+
+    <!-- =====================================================
+         FOOTER
+         ===================================================== -->
+    <footer class="site-footer">
+
+        <div class="footer-line"></div>
+
+        <p>
+            جميع الحقوق محفوظة © 2026 Yazeed English
+        </p>
+
+    </footer>
+
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
