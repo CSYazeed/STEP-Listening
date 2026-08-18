@@ -41,38 +41,78 @@
 const LISTENING_DATA = [
 
     {
-        audio: "audio/listening-1.mp3",
-
+        audio: "audio/listening-01.mp3",
+// Hotel Room Service // Easy
         questions: [
             {
-                question: "From the conversation, how did the man probably find out about Dr. Carter?",
+                question: "The man orders a ______________, fries, and a small salad",
                 answers: [
-                    "Answer A",
-                    "Answer B",
-                    "Answer C",
-                    "Answer D"
+                    "chicken sandwich",
+                    "hamburger",
+                    "steak",
+                    "pizza"
                 ],
                 correct: 0
             },
 
             {
-                question: "Add your second question here.",
+                question: "What drink or beverage does the man order?",
                 answers: [
-                    "Answer A",
-                    "Answer B",
-                    "Answer C",
-                    "Answer D"
+                    "coke",
+                    "sprite",
+                    "orange juice",
+                    "milk"
                 ],
-                correct: 1
+                correct: 2
             },
 
             {
-                question: "Add your third question here.",
+                question: "What is the man's name?",
                 answers: [
-                    "Answer A",
-                    "Answer B",
-                    "Answer C",
-                    "Answer D"
+                    "Joseph",
+                    "James",
+                    "Joshua",
+                    "Jason"
+                ],
+                correct: 1
+            }
+        ]
+    },
+
+
+    {
+        audio: "audio/listening-02.mp3",
+// RestaurantOrder // Easy
+        questions: [
+            {
+                question: "How many cheeseburgers does the man order?",
+                answers: [
+                    "80",
+                    "18",
+                    "48",
+                    "88"
+                ],
+                correct: 0
+            },
+
+            {
+                question: "The man is ordering food for a ___________ team",
+                answers: [
+                    "basketball",
+                    "tennis",
+                    "soccer",
+                    "baseball"
+                ],
+                correct: 2
+            },
+
+            {
+                question: "The man asks for _______ orders of fries",
+                answers: [
+                    "40",
+                    "50",
+                    "60",
+                    "70"
                 ],
                 correct: 2
             }
@@ -81,36 +121,40 @@ const LISTENING_DATA = [
 
 
     {
-        audio: "audio/listening-02.mp3",
-
-        questions: [
-            {
-                question: "Add your question here.",
-                answers: [
-                    "Answer A",
-                    "Answer B",
-                    "Answer C",
-                    "Answer D"
-                ],
-                correct: 0
-            }
-        ]
-    },
-
-
-    {
         audio: "audio/listening-03.mp3",
-
+// Hotel Reservation // Easy
         questions: [
             {
-                question: "Add your question here.",
+                question: "The man finally makes a reservation for March _____",
                 answers: [
-                    "Answer A",
-                    "Answer B",
-                    "Answer C",
-                    "Answer D"
+                    "March 20th",
+                    "March 21th",
+                    "March 22th",
+                    "March 23th"
                 ],
                 correct: 0
+            },
+
+            {
+                question: "What kind of room does the man prefer?",
+                answers: [
+                    "a smoking room",
+                    "a non-smoking room",
+                    "a room with balcony",
+                    "a room with a view"
+                ],
+                correct: 1
+            },
+
+            {
+                question: "Why doesn't he want to reserve the suite?",
+                answers: [
+                    "It doesn't have a nice view",
+                    "It's too expensive",
+                    "It doesn't come with a sauna bath",
+                    "It's too small"
+                ],
+                correct: 1
             }
         ]
     },
@@ -118,15 +162,37 @@ const LISTENING_DATA = [
 
     {
         audio: "audio/listening-04.mp3",
-
+// Hiking Family // Intermediate
         questions: [
             {
-                question: "Add your question here.",
+                question: "Where did Randall grow up?",
                 answers: [
-                    "Answer A",
-                    "Answer B",
-                    "Answer C",
-                    "Answer D"
+                    "in Utah",
+                    "in Venezuela",
+                    "in Indiana",
+                    "in California"
+                ],
+                correct: 2
+            },
+
+            {
+                question: "What was his undergraduate major?",
+                answers: [
+                    "Spanish",
+                    "Japanese",
+                    "English",
+                    "French"
+                ],
+                correct: 0
+            },
+
+            {
+                question: "Randall ______ when he goes on hikes with his children",
+                answers: [
+                    "tells them stories",
+                    "teaches them survival skills",
+                    "teaches them about plants",
+                    "points out the wildlife" 
                 ],
                 correct: 0
             }
@@ -136,17 +202,39 @@ const LISTENING_DATA = [
 
     {
         audio: "audio/listening-05.mp3",
-
+// Driver License // Intermediate
         questions: [
             {
-                question: "Add your question here.",
+                question: "The girl is excited because she _____",
                 answers: [
-                    "Answer A",
-                    "Answer B",
-                    "Answer C",
-                    "Answer D"
+                    "just started driving lessons",
+                    "has her driver's license",
+                    "is taking her road test today",
+                    "is getting her first car"
                 ],
-                correct: 0
+                correct: 1
+            },
+
+            {
+                question: "The father is concerned because some kids ____",
+                answers: [
+                    "drive before obtaining a license",
+                    "use their phones while driving",
+                    "often drive at high speeds",
+                    "don't pay attention to road signs"
+                ],
+                correct: 2
+            },
+
+            {
+                question: "The father asks his daughter not to drive at night because _____",
+                answers: [
+                    "it is more difficult to see obstacles in the road",
+                    "the roads tends to become icy and slippery",
+                    "there may be fewer gas stations open",
+                    "the girl might fall asleep at the wheel"
+                ],
+                correct: 3
             }
         ]
     },
@@ -154,15 +242,37 @@ const LISTENING_DATA = [
 
     {
         audio: "audio/listening-06.mp3",
-
+// School supplies // Intermediate
         questions: [
             {
-                question: "Add your question here.",
+                question: "The girl needs _______ for school",
                 answers: [
-                    "Answer A",
-                    "Answer B",
-                    "Answer C",
-                    "Answer D"
+                    "a computer",
+                    "a smart phone",
+                    "a backpack",
+                    "a lunchbox"
+                ],
+                correct: 0
+            },
+
+            {
+                question: "The girl needs some of these things for her _____ class",
+                answers: [
+                    "chemistry",
+                    "physics",
+                    "geometry",
+                    "history"
+                ],
+                correct: 2
+            },
+
+            {
+                question: "The father gives his daughter money because _____",
+                answers: [
+                    "the girl will help him when he is older",
+                    "he discovers some extra money",
+                    "his wife had money in the bank",
+                    "the girl needs money for lunch"
                 ],
                 correct: 0
             }
@@ -172,17 +282,39 @@ const LISTENING_DATA = [
 
     {
         audio: "audio/listening-07.mp3",
-
+// Medical Advice // Intermediate
         questions: [
             {
-                question: "Add your question here.",
+                question: "how did the man find out about Dr. Carter?",
                 answers: [
-                    "Answer A",
-                    "Answer B",
-                    "Answer C",
-                    "Answer D"
+                    "He saw the office on his way home",
+                    "He found the number in the phone book",
+                    "A friend referred him to the office",
+                    "His wife told him about the doctor"
                 ],
                 correct: 0
+            },
+
+            {
+                question: "When does the man have his appointment?",
+                answers: [
+                    "Wednesday",
+                    "Tuesday",
+                    "Thursday",
+                    "Monday"
+                ],
+                correct: 2
+            },
+
+            {
+                question: "The man injured his ankle when ______",
+                answers: [
+                    "a car hit him",
+                    "fell from a ladder",
+                    "he fell off his bicycle",
+                    "slipped on a wet floor"
+                ],
+                correct: 1
             }
         ]
     },
@@ -190,15 +322,37 @@ const LISTENING_DATA = [
 
     {
         audio: "audio/listening-08.mp3",
-
+// TV Guide // Intermediate
         questions: [
             {
-                question: "Add your question here.",
+                question: "The man doesn't want to watch the reality show because he ____",
                 answers: [
-                    "Answer A",
-                    "Answer B",
-                    "Answer C",
-                    "Answer D"
+                    "needs to go out with his friends",
+                    "isn't interested in the show's theme",
+                    "watched the same program last week",
+                    "wants to go swimming instead"
+                ],
+                correct: 1
+            },
+
+            {
+                question: "How does the man feel about watching Star Wars on TV?",
+                answers: [
+                    "He'd like to watch it if he had more time",
+                    "He wouldn't mind seeing it again",
+                    "He'd prefer to watch something else",
+                    "He would like to watch it with his friends"
+                ],
+                correct: 2
+            },
+
+            {
+                question: "What did they decide to watch?",
+                answers: [
+                    "a sports event",
+                    "a movie",
+                    "a comedy show",
+                    "a documentary"
                 ],
                 correct: 0
             }
@@ -208,17 +362,39 @@ const LISTENING_DATA = [
 
     {
         audio: "audio/listening-09.mp3",
-
+// Babysitter // Hard
         questions: [
             {
-                question: "Add your question here.",
+                question: "The man is impressed by the girl because she _____",
                 answers: [
-                    "Answer A",
-                    "Answer B",
-                    "Answer C",
-                    "Answer D"
+                    "has experience as a babysitter",
+                    "arrives promptly at the designated time",
+                    "carries her own business cards",
+                    "comes prepared to cook for the kids"
                 ],
-                correct: 0
+                correct: 2
+            },
+
+            {
+                question: "How often has Kelly babysat for Mr. Adams in the past?",
+                answers: [
+                    "on a regular basis",
+                    "one or two times",
+                    "from time to time",
+                    "never"
+                ],
+                correct: 3
+            },
+
+            {
+                question: "The girl should charge more money because she ______",
+                answers: [
+                    "purchases groceries for meals",
+                    "helps kids with homework",
+                    "does some housework",
+                    "takes the children to the park"
+                ],
+                correct: 2
             }
         ]
     },
@@ -226,20 +402,42 @@ const LISTENING_DATA = [
 
     {
         audio: "audio/listening-10.mp3",
-
+// Store Return // Hard
         questions: [
             {
-                question: "Add your question here.",
+                question: "The man is trying to return ______ to the store",
                 answers: [
-                    "Answer A",
-                    "Answer B",
-                    "Answer C",
-                    "Answer D"
+                    "a sweatshirt",
+                    "a sweater",
+                    "a jacket",
+                    "a T-shirt"
+                ],
+                correct: 1
+            },
+
+            {
+                question: "The man wants to return the item because _____",
+                answers: [
+                    "the fabric is coming apart",
+                    "it is the wrong size",
+                    "it is stained",
+                    "the sleeves are too long"
                 ],
                 correct: 0
+            },
+
+            {
+                question: "The store clerk won't accept the item back because _____",
+                answers: [
+                    "the man doesn't have the proper receipt",
+                    "the item was bought online",
+                    "the store is closing soon",
+                    "the return period had passed"
+                ],
+                correct: 3
             }
         ]
-    }
+    },
 
 ];
 
