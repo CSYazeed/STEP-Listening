@@ -738,14 +738,11 @@ button {
 
 
 .question-top {
-
     display: flex;
-
     align-items: flex-start;
-
     gap: 12px;
-
-    margin-bottom: 32px;
+    margin-bottom: 28px;
+    direction: ltr;
 }
 
 
