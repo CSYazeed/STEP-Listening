@@ -5,44 +5,12 @@
 
 /* =========================================================
    LISTENING DATA
-   =========================================================
-
-   Add your questions here.
-
-   Each listening has:
-   - audio: the MP3 file
-   - questions: all questions related to that MP3
-
-   Each question has:
-   - question: English question
-   - answers: at least 3 answers
-   - correct: the number of the correct answer
-
-   Example:
-
-   {
-       question: "Where does the man work?",
-       answers: [
-           "At a hospital",
-           "At a bank",
-           "At a school"
-       ],
-       correct: 1
-   }
-
-   "correct: 1" means the SECOND answer is correct
-   because JavaScript starts counting from 0.
-
-   0 = first answer
-   1 = second answer
-   2 = third answer
    ========================================================= */
 
 const LISTENING_DATA = [
 
     {
         audio: "audio/listening-01.mp3",
-// Hotel Room Service // Easy
         questions: [
             {
                 question: "The man orders a ______________, fries, and a small salad",
@@ -54,7 +22,6 @@ const LISTENING_DATA = [
                 ],
                 correct: 0
             },
-
             {
                 question: "What drink or beverage does the man order?",
                 answers: [
@@ -65,7 +32,6 @@ const LISTENING_DATA = [
                 ],
                 correct: 2
             },
-
             {
                 question: "What is the man's name?",
                 answers: [
@@ -82,7 +48,6 @@ const LISTENING_DATA = [
 
     {
         audio: "audio/listening-02.mp3",
-// RestaurantOrder // Easy
         questions: [
             {
                 question: "How many cheeseburgers does the man order?",
@@ -94,7 +59,6 @@ const LISTENING_DATA = [
                 ],
                 correct: 0
             },
-
             {
                 question: "The man is ordering food for a ___________ team",
                 answers: [
@@ -105,7 +69,6 @@ const LISTENING_DATA = [
                 ],
                 correct: 2
             },
-
             {
                 question: "The man asks for _______ orders of fries",
                 answers: [
@@ -122,7 +85,6 @@ const LISTENING_DATA = [
 
     {
         audio: "audio/listening-03.mp3",
-// Hotel Reservation // Easy
         questions: [
             {
                 question: "The man finally makes a reservation for March _____",
@@ -134,7 +96,6 @@ const LISTENING_DATA = [
                 ],
                 correct: 0
             },
-
             {
                 question: "What kind of room does the man prefer?",
                 answers: [
@@ -145,7 +106,6 @@ const LISTENING_DATA = [
                 ],
                 correct: 1
             },
-
             {
                 question: "Why doesn't he want to reserve the suite?",
                 answers: [
@@ -162,7 +122,6 @@ const LISTENING_DATA = [
 
     {
         audio: "audio/listening-04.mp3",
-// Hiking Family // Intermediate
         questions: [
             {
                 question: "Where did Randall grow up?",
@@ -174,7 +133,6 @@ const LISTENING_DATA = [
                 ],
                 correct: 2
             },
-
             {
                 question: "What was his undergraduate major?",
                 answers: [
@@ -185,14 +143,13 @@ const LISTENING_DATA = [
                 ],
                 correct: 0
             },
-
             {
                 question: "Randall ______ when he goes on hikes with his children",
                 answers: [
                     "tells them stories",
                     "teaches them survival skills",
                     "teaches them about plants",
-                    "points out the wildlife" 
+                    "points out the wildlife"
                 ],
                 correct: 0
             }
@@ -202,7 +159,6 @@ const LISTENING_DATA = [
 
     {
         audio: "audio/listening-05.mp3",
-// Driver License // Intermediate
         questions: [
             {
                 question: "The girl is excited because she _____",
@@ -214,7 +170,6 @@ const LISTENING_DATA = [
                 ],
                 correct: 1
             },
-
             {
                 question: "The father is concerned because some kids ____",
                 answers: [
@@ -225,7 +180,6 @@ const LISTENING_DATA = [
                 ],
                 correct: 2
             },
-
             {
                 question: "The father asks his daughter not to drive at night because _____",
                 answers: [
@@ -242,7 +196,6 @@ const LISTENING_DATA = [
 
     {
         audio: "audio/listening-06.mp3",
-// School supplies // Intermediate
         questions: [
             {
                 question: "The girl needs _______ for school",
@@ -254,7 +207,6 @@ const LISTENING_DATA = [
                 ],
                 correct: 0
             },
-
             {
                 question: "The girl needs some of these things for her _____ class",
                 answers: [
@@ -265,7 +217,6 @@ const LISTENING_DATA = [
                 ],
                 correct: 2
             },
-
             {
                 question: "The father gives his daughter money because _____",
                 answers: [
@@ -282,7 +233,6 @@ const LISTENING_DATA = [
 
     {
         audio: "audio/listening-07.mp3",
-// Medical Advice // Intermediate
         questions: [
             {
                 question: "how did the man find out about Dr. Carter?",
@@ -294,7 +244,6 @@ const LISTENING_DATA = [
                 ],
                 correct: 0
             },
-
             {
                 question: "When does the man have his appointment?",
                 answers: [
@@ -305,7 +254,6 @@ const LISTENING_DATA = [
                 ],
                 correct: 2
             },
-
             {
                 question: "The man injured his ankle when ______",
                 answers: [
@@ -322,7 +270,6 @@ const LISTENING_DATA = [
 
     {
         audio: "audio/listening-08.mp3",
-// TV Guide // Intermediate
         questions: [
             {
                 question: "The man doesn't want to watch the reality show because he ____",
@@ -334,7 +281,6 @@ const LISTENING_DATA = [
                 ],
                 correct: 1
             },
-
             {
                 question: "How does the man feel about watching Star Wars on TV?",
                 answers: [
@@ -345,7 +291,6 @@ const LISTENING_DATA = [
                 ],
                 correct: 2
             },
-
             {
                 question: "What did they decide to watch?",
                 answers: [
@@ -362,7 +307,6 @@ const LISTENING_DATA = [
 
     {
         audio: "audio/listening-09.mp3",
-// Babysitter // Hard
         questions: [
             {
                 question: "The man is impressed by the girl because she _____",
@@ -374,7 +318,6 @@ const LISTENING_DATA = [
                 ],
                 correct: 2
             },
-
             {
                 question: "How often has Kelly babysat for Mr. Adams in the past?",
                 answers: [
@@ -385,7 +328,6 @@ const LISTENING_DATA = [
                 ],
                 correct: 3
             },
-
             {
                 question: "The girl should charge more money because she ______",
                 answers: [
@@ -402,7 +344,6 @@ const LISTENING_DATA = [
 
     {
         audio: "audio/listening-10.mp3",
-// Store Return // Hard
         questions: [
             {
                 question: "The man is trying to return ______ to the store",
@@ -414,7 +355,6 @@ const LISTENING_DATA = [
                 ],
                 correct: 1
             },
-
             {
                 question: "The man wants to return the item because _____",
                 answers: [
@@ -425,7 +365,6 @@ const LISTENING_DATA = [
                 ],
                 correct: 0
             },
-
             {
                 question: "The store clerk won't accept the item back because _____",
                 answers: [
@@ -437,7 +376,7 @@ const LISTENING_DATA = [
                 correct: 3
             }
         ]
-    },
+    }
 
 ];
 
@@ -497,6 +436,9 @@ const incorrectCount =
 const nextListeningBtn =
     document.getElementById("nextListeningBtn");
 
+const previousListeningBtn =
+    document.getElementById("previousListeningBtn");
+
 const nextMessage =
     document.getElementById("nextMessage");
 
@@ -511,18 +453,6 @@ let totalCorrect = 0;
 
 let totalIncorrect = 0;
 
-
-/*
-   This stores whether each question has already
-   been answered.
-
-   Example:
-
-   answeredQuestions[0] = true
-
-   means question 1 of the current listening
-   has already been answered.
-*/
 let answeredQuestions = [];
 
 
@@ -597,6 +527,48 @@ function formatTime(seconds) {
 
 
 /* =========================================================
+   PLAY BUTTON
+   =========================================================
+
+   IMPORTANT:
+   We do NOT use "▶" or "❚❚".
+
+   iOS can display some Unicode symbols as emoji.
+
+   Instead, the icons are HTML elements styled
+   with CSS in style.css.
+   ========================================================= */
+
+function setPlayButtonState(isPlaying) {
+
+    if (!playPauseBtn) {
+        return;
+    }
+
+    if (isPlaying) {
+
+        playPauseBtn.innerHTML =
+            '<span class="pause-symbol" aria-hidden="true"></span>';
+
+        playPauseBtn.setAttribute(
+            "aria-label",
+            "إيقاف مؤقت"
+        );
+
+    } else {
+
+        playPauseBtn.innerHTML =
+            '<span class="play-symbol" aria-hidden="true"></span>';
+
+        playPauseBtn.setAttribute(
+            "aria-label",
+            "تشغيل"
+        );
+    }
+}
+
+
+/* =========================================================
    LOAD LISTENING
    ========================================================= */
 
@@ -610,7 +582,8 @@ function loadListening(index) {
     }
 
 
-    currentListeningIndex = index;
+    currentListeningIndex =
+        index;
 
 
     const listening =
@@ -618,6 +591,7 @@ function loadListening(index) {
 
 
     /* Reset question states */
+
     answeredQuestions =
         new Array(
             listening.questions.length
@@ -647,8 +621,7 @@ function loadListening(index) {
     audioPlayer.load();
 
 
-    playPauseBtn.textContent =
-        "▶";
+    setPlayButtonState(false);
 
 
     progressBar.value =
@@ -663,7 +636,7 @@ function loadListening(index) {
         "00:00";
 
 
-    /* Reset playback speed */
+    /* Keep selected playback speed */
 
     audioPlayer.playbackRate =
         Number(speedSelect.value);
@@ -676,7 +649,14 @@ function loadListening(index) {
     );
 
 
-    updateNextButton();
+    /*
+       IMPORTANT:
+
+       Navigation is updated regardless of whether
+       the user answered the questions.
+    */
+
+    updateNavigation();
 }
 
 
@@ -814,8 +794,7 @@ function handleAnswer(
 ) {
 
     /*
-       If this question has already been answered,
-       do nothing.
+       Prevent answering the same question twice.
     */
 
     if (
@@ -824,10 +803,6 @@ function handleAnswer(
         return;
     }
 
-
-    /*
-       Lock the question.
-    */
 
     answeredQuestions[questionIndex] =
         true;
@@ -905,20 +880,12 @@ function handleAnswer(
             totalIncorrect;
 
 
-        /*
-           Mark the selected answer red.
-        */
-
         answerButtons[
             selectedAnswerIndex
         ].classList.add(
             "incorrect"
         );
 
-
-        /*
-           Reveal the correct answer in green.
-        */
 
         answerButtons[
             question.correct
@@ -936,40 +903,21 @@ function handleAnswer(
 
         result.innerHTML = `
             <span class="result-icon">✕</span>
-            <span>
-                اجابة خاطئة
-                <strong>
-                </strong>
-            </span>
+            <span>اجابة خاطئة</span>
         `;
     }
 
 
-    updateNextButton();
+    /*
+       Navigation stays enabled.
+    */
+
+    updateNavigation();
 }
 
 
 /* =========================================================
-   ESCAPE HTML
-   =========================================================
-
-   This protects the question/answer text if you
-   later use characters such as < or >.
-   ========================================================= */
-
-function escapeHTML(value) {
-
-    return String(value)
-        .replaceAll("&", "&amp;")
-        .replaceAll("<", "&lt;")
-        .replaceAll(">", "&gt;")
-        .replaceAll('"', "&quot;")
-        .replaceAll("'", "&#039;");
-}
-
-
-/* =========================================================
-   CHECK WHETHER ALL QUESTIONS ARE ANSWERED
+   CHECK ANSWERS
    ========================================================= */
 
 function allQuestionsAnswered() {
@@ -982,82 +930,152 @@ function allQuestionsAnswered() {
 
 
 /* =========================================================
-   NEXT BUTTON
+   NAVIGATION
+   =========================================================
+
+   IMPORTANT:
+
+   The user can move between listenings WITHOUT
+   answering the questions.
+
+   Previous:
+   - Disabled only on Listening 1.
+
+   Next:
+   - Disabled only on Listening 10.
    ========================================================= */
 
-function updateNextButton() {
+function updateNavigation() {
+
+    const isFirstListening =
+        currentListeningIndex === 0;
 
     const isLastListening =
         currentListeningIndex ===
         LISTENING_DATA.length - 1;
 
 
-    if (!allQuestionsAnswered()) {
+    /*
+       PREVIOUS
+    */
 
-        nextListeningBtn.disabled =
-            true;
-
-        nextMessage.textContent =
-            "أجب عن جميع الأسئلة للانتقال إلى المقطع التالي.";
-
-        return;
-    }
+    previousListeningBtn.disabled =
+        isFirstListening;
 
 
     /*
-       All questions are answered.
+       NEXT
     */
 
     nextListeningBtn.disabled =
-        false;
+        isLastListening;
 
 
-    if (isLastListening) {
+    /*
+       Message
+    */
+
+    if (isFirstListening) {
 
         nextMessage.textContent =
-            "لقد أكملت جميع مقاطع الاستماع.";
+            "يمكنك الانتقال إلى المقطع التالي في أي وقت.";
 
-        nextListeningBtn.innerHTML =
-            `
-                اكتمل الاستماع
-                <span>✓</span>
-            `;
+    } else if (isLastListening) {
+
+        nextMessage.textContent =
+            "يمكنك الرجوع إلى المقطع السابق في أي وقت.";
 
     } else {
 
         nextMessage.textContent =
-            "أحسنت! يمكنك الانتقال إلى المقطع التالي.";
-
-        nextListeningBtn.innerHTML =
-            `
-                التالي
-                <span>←</span>
-            `;
+            "يمكنك الانتقال بين المقاطع في أي وقت.";
     }
+
+
+    /*
+       Button text
+    */
+
+    nextListeningBtn.innerHTML = `
+        التالي
+        <span>←</span>
+    `;
+
+
+    previousListeningBtn.innerHTML = `
+        السابق
+        <span>→</span>
+    `;
 }
 
+
+/* =========================================================
+   NEXT LISTENING
+   ========================================================= */
 
 nextListeningBtn.addEventListener(
     "click",
     () => {
 
-        const isLastListening =
-            currentListeningIndex ===
-            LISTENING_DATA.length - 1;
+        const nextIndex =
+            currentListeningIndex + 1;
 
 
-        if (!allQuestionsAnswered()) {
-            return;
-        }
+        /*
+           Do NOT check answers here.
 
+           The user is allowed to continue
+           without answering anything.
+        */
 
-        if (isLastListening) {
+        if (
+            nextIndex >=
+            LISTENING_DATA.length
+        ) {
             return;
         }
 
 
         loadListening(
-            currentListeningIndex + 1
+            nextIndex
+        );
+
+
+        window.scrollTo({
+            top: 0,
+            behavior: "smooth"
+        });
+    }
+);
+
+
+/* =========================================================
+   PREVIOUS LISTENING
+   ========================================================= */
+
+previousListeningBtn.addEventListener(
+    "click",
+    () => {
+
+        const previousIndex =
+            currentListeningIndex - 1;
+
+
+        /*
+           Do NOT check answers here.
+
+           The user can go backwards at any time.
+        */
+
+        if (
+            previousIndex < 0
+        ) {
+            return;
+        }
+
+
+        loadListening(
+            previousIndex
         );
 
 
@@ -1098,12 +1116,15 @@ playPauseBtn.addEventListener(
 );
 
 
+/* =========================================================
+   AUDIO EVENTS
+   ========================================================= */
+
 audioPlayer.addEventListener(
     "play",
     () => {
 
-        playPauseBtn.textContent =
-            "❚❚";
+        setPlayButtonState(true);
     }
 );
 
@@ -1112,8 +1133,16 @@ audioPlayer.addEventListener(
     "pause",
     () => {
 
-        playPauseBtn.textContent =
-            "▶";
+        setPlayButtonState(false);
+    }
+);
+
+
+audioPlayer.addEventListener(
+    "ended",
+    () => {
+
+        setPlayButtonState(false);
     }
 );
 
@@ -1164,16 +1193,6 @@ audioPlayer.addEventListener(
 );
 
 
-audioPlayer.addEventListener(
-    "ended",
-    () => {
-
-        playPauseBtn.textContent =
-            "▶";
-    }
-);
-
-
 /* =========================================================
    PROGRESS BAR
    ========================================================= */
@@ -1210,7 +1229,9 @@ volumeBar.addEventListener(
             Number(volumeBar.value);
 
 
-        if (audioPlayer.volume === 0) {
+        if (
+            audioPlayer.volume === 0
+        ) {
 
             muteBtn.textContent =
                 "🔇";
@@ -1304,5 +1325,7 @@ restartAudioBtn.addEventListener(
 /* =========================================================
    INITIAL LOAD
    ========================================================= */
+
+setPlayButtonState(false);
 
 loadListening(0);
