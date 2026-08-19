@@ -11,6 +11,7 @@ const LISTENING_DATA = [
 
     {
         audio: "audio/listening-01.mp3",
+// Hotel Room Service // Easy
         questions: [
             {
                 question: "The man orders a ______________, fries, and a small salad",
@@ -22,6 +23,7 @@ const LISTENING_DATA = [
                 ],
                 correct: 0
             },
+
             {
                 question: "What drink or beverage does the man order?",
                 answers: [
@@ -32,13 +34,14 @@ const LISTENING_DATA = [
                 ],
                 correct: 2
             },
+
             {
-                question: "What is the man's name?",
+                question: "Where did this conversation take place?",
                 answers: [
-                    "Joseph",
-                    "James",
-                    "Joshua",
-                    "Jason"
+                    "At a restaurant",
+                    "At a hotel",
+                    "At an airport",
+                    "At a grocery store"
                 ],
                 correct: 1
             }
@@ -48,6 +51,7 @@ const LISTENING_DATA = [
 
     {
         audio: "audio/listening-02.mp3",
+// RestaurantOrder // Easy
         questions: [
             {
                 question: "How many cheeseburgers does the man order?",
@@ -59,6 +63,7 @@ const LISTENING_DATA = [
                 ],
                 correct: 0
             },
+
             {
                 question: "The man is ordering food for a ___________ team",
                 answers: [
@@ -69,6 +74,7 @@ const LISTENING_DATA = [
                 ],
                 correct: 2
             },
+
             {
                 question: "The man asks for _______ orders of fries",
                 answers: [
@@ -85,6 +91,7 @@ const LISTENING_DATA = [
 
     {
         audio: "audio/listening-03.mp3",
+// Hotel Reservation // Easy
         questions: [
             {
                 question: "The man finally makes a reservation for March _____",
@@ -96,6 +103,7 @@ const LISTENING_DATA = [
                 ],
                 correct: 0
             },
+
             {
                 question: "What kind of room does the man prefer?",
                 answers: [
@@ -106,13 +114,14 @@ const LISTENING_DATA = [
                 ],
                 correct: 1
             },
+
             {
-                question: "Why doesn't he want to reserve the suite?",
+                question: "Where does the conversation take place?",
                 answers: [
-                    "It doesn't have a nice view",
-                    "It's too expensive",
-                    "It doesn't come with a sauna bath",
-                    "It's too small"
+                    "At a restaurant",
+                    "At a hotel",
+                    "At an airport",
+                    "At a hospital"
                 ],
                 correct: 1
             }
@@ -122,6 +131,7 @@ const LISTENING_DATA = [
 
     {
         audio: "audio/listening-04.mp3",
+// Hiking Family // Intermediate
         questions: [
             {
                 question: "Where did Randall grow up?",
@@ -133,6 +143,7 @@ const LISTENING_DATA = [
                 ],
                 correct: 2
             },
+
             {
                 question: "What was his undergraduate major?",
                 answers: [
@@ -143,13 +154,14 @@ const LISTENING_DATA = [
                 ],
                 correct: 0
             },
+
             {
                 question: "Randall ______ when he goes on hikes with his children",
                 answers: [
                     "tells them stories",
                     "teaches them survival skills",
                     "teaches them about plants",
-                    "points out the wildlife"
+                    "points out the wildlife" 
                 ],
                 correct: 0
             }
@@ -159,6 +171,7 @@ const LISTENING_DATA = [
 
     {
         audio: "audio/listening-05.mp3",
+// Driver License // Intermediate
         questions: [
             {
                 question: "The girl is excited because she _____",
@@ -170,6 +183,7 @@ const LISTENING_DATA = [
                 ],
                 correct: 1
             },
+
             {
                 question: "The father is concerned because some kids ____",
                 answers: [
@@ -180,6 +194,7 @@ const LISTENING_DATA = [
                 ],
                 correct: 2
             },
+
             {
                 question: "The father asks his daughter not to drive at night because _____",
                 answers: [
@@ -196,6 +211,7 @@ const LISTENING_DATA = [
 
     {
         audio: "audio/listening-06.mp3",
+// School supplies // Intermediate
         questions: [
             {
                 question: "The girl needs _______ for school",
@@ -207,6 +223,7 @@ const LISTENING_DATA = [
                 ],
                 correct: 0
             },
+
             {
                 question: "The girl needs some of these things for her _____ class",
                 answers: [
@@ -217,6 +234,7 @@ const LISTENING_DATA = [
                 ],
                 correct: 2
             },
+
             {
                 question: "The father gives his daughter money because _____",
                 answers: [
@@ -233,6 +251,7 @@ const LISTENING_DATA = [
 
     {
         audio: "audio/listening-07.mp3",
+// Medical Advice // Intermediate
         questions: [
             {
                 question: "how did the man find out about Dr. Carter?",
@@ -244,6 +263,7 @@ const LISTENING_DATA = [
                 ],
                 correct: 0
             },
+
             {
                 question: "When does the man have his appointment?",
                 answers: [
@@ -254,6 +274,7 @@ const LISTENING_DATA = [
                 ],
                 correct: 2
             },
+
             {
                 question: "The man injured his ankle when ______",
                 answers: [
@@ -270,6 +291,7 @@ const LISTENING_DATA = [
 
     {
         audio: "audio/listening-08.mp3",
+// TV Guide // Intermediate
         questions: [
             {
                 question: "The man doesn't want to watch the reality show because he ____",
@@ -281,6 +303,7 @@ const LISTENING_DATA = [
                 ],
                 correct: 1
             },
+
             {
                 question: "How does the man feel about watching Star Wars on TV?",
                 answers: [
@@ -291,6 +314,7 @@ const LISTENING_DATA = [
                 ],
                 correct: 2
             },
+
             {
                 question: "What did they decide to watch?",
                 answers: [
@@ -307,6 +331,7 @@ const LISTENING_DATA = [
 
     {
         audio: "audio/listening-09.mp3",
+// Babysitter // Hard
         questions: [
             {
                 question: "The man is impressed by the girl because she _____",
@@ -318,6 +343,7 @@ const LISTENING_DATA = [
                 ],
                 correct: 2
             },
+
             {
                 question: "How often has Kelly babysat for Mr. Adams in the past?",
                 answers: [
@@ -328,6 +354,7 @@ const LISTENING_DATA = [
                 ],
                 correct: 3
             },
+
             {
                 question: "The girl should charge more money because she ______",
                 answers: [
@@ -344,6 +371,7 @@ const LISTENING_DATA = [
 
     {
         audio: "audio/listening-10.mp3",
+// Store Return // Hard
         questions: [
             {
                 question: "The man is trying to return ______ to the store",
@@ -355,6 +383,7 @@ const LISTENING_DATA = [
                 ],
                 correct: 1
             },
+
             {
                 question: "The man wants to return the item because _____",
                 answers: [
@@ -365,6 +394,7 @@ const LISTENING_DATA = [
                 ],
                 correct: 0
             },
+
             {
                 question: "The store clerk won't accept the item back because _____",
                 answers: [
@@ -376,7 +406,7 @@ const LISTENING_DATA = [
                 correct: 3
             }
         ]
-    }
+    },
 
 ];
 
@@ -978,17 +1008,17 @@ function updateNavigation() {
     if (isFirstListening) {
 
         nextMessage.textContent =
-            "يمكنك الانتقال إلى المقطع التالي في أي وقت.";
+            "";
 
     } else if (isLastListening) {
 
         nextMessage.textContent =
-            "يمكنك الرجوع إلى المقطع السابق في أي وقت.";
+            "";
 
     } else {
 
         nextMessage.textContent =
-            "يمكنك الانتقال بين المقاطع في أي وقت.";
+            "";
     }
 
 
