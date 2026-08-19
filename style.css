@@ -640,7 +640,7 @@ button {
 
 .next-section {
     margin-top: 32px;
-    padding: 24px;
+    padding: 6px 24px 24px;
     text-align: center;
     background: var(--card);
     border: 1px solid var(--line);
