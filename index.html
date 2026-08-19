@@ -69,7 +69,7 @@
                 </h1>
 
                 <p>
-                    استمع إلى المقطع الصوتي ثم أجب عن جميع الأسئلة المرتبطة به
+                    استمع إلى المقطع الصوتي ثم أجب عن جميع الأسئلة المرتبطة به.
                 </p>
 
             </div>
@@ -135,7 +135,7 @@
                         type="button"
                         aria-label="تشغيل"
                     >
-                        ▶
+                        <span class="play-symbol" aria-hidden="true"></span>
                     </button>
 
                     <div class="player-main">
@@ -260,17 +260,30 @@
             <div class="next-section">
 
                 <p id="nextMessage">
-                    أجب عن جميع الأسئلة للانتقال إلى المقطع التالي.
+                    يمكنك التنقل بين المقاطع في أي وقت.
                 </p>
 
-                <button
-                    id="nextListeningBtn"
-                    class="next-btn"
-                    type="button"
-                >
-                    التالي
-                    <span>←</span>
-                </button>
+                <div class="listening-navigation">
+
+                    <button
+                        id="nextListeningBtn"
+                        class="next-btn"
+                        type="button"
+                    >
+                        التالي
+                        <span>←</span>
+                    </button>
+
+                    <button
+                        id="previousListeningBtn"
+                        class="previous-btn"
+                        type="button"
+                    >
+                        السابق
+                        <span>→</span>
+                    </button>
+
+                </div>
 
             </div>
 
